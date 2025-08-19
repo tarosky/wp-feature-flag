@@ -34,7 +34,7 @@ npm install
 
 3. WordPress環境を起動
 ```bash
-npm run env:start
+npm start
 ```
 
 4. ブラウザでアクセス
