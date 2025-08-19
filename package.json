@@ -1,0 +1,21 @@
+{
+  "name": "wp-feature-flag",
+  "version": "1.0.0",
+  "description": "フィーチャーフラグを使用して機能のオン・オフを切り替えるWordPressプラグイン",
+  "author": "Fumiki Takahashi",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "feature-flag"
+  ],
+  "scripts": {
+    "start": "wp-env start",
+    "stop": "wp-env stop",
+    "env": "wp-env",
+    "cli": "wp-env run cli wp"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.0.0"
+  }
+}

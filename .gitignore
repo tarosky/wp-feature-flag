@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WordPress環境
+.wp-env/
+wordpress/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.claude
+
+# ログファイル
+*.log
+
+# 環境変数
+.env
+.env.local
+
+# ビルドファイル
+dist/
+build/
